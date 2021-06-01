@@ -31,7 +31,7 @@ const setTask = (e) => {
 
     if (enterThetTask.value.trim() == '') {
 
-        console.log('esta vacio...');
+        // console.log('esta vacio...');
 
         return
 
@@ -46,7 +46,7 @@ const setTask = (e) => {
     tasks[task.id] = task;
 
 
-    console.log(tasks);
+    // console.log(tasks);
 
     formulario.reset();
 
